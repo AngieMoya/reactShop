@@ -1,0 +1,25 @@
+.shopping-cart{
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.shopping-cart figure img{
+    width: 79px;
+    height: 79px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.shopping-cart p:nth-child(2){
+    color: var(--very-light-pink);
+    font-size: var(--small);
+}
+
+.shopping-cart p:nth-child(3){
+    font-weight: bold;
+    color: var(--black);
+    font-size: var(--med);
+}

@@ -1,0 +1,41 @@
+.form-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 300px;
+
+  .form-container form div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: var(--big);
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .title-left {
+    text-align: start;
+    margin-bottom: 47px;
+  }
+
+  .label {
+    font-size: var(--small);
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+
+  .value {
+    color: var(--very-light-pink);
+    font-size: var(--med);
+    margin: 8px 0 32px 0;
+    padding: 10px;
+    background-color: var(--text-input-field);
+    border-radius: 10px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+}
